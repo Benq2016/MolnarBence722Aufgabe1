@@ -2,8 +2,13 @@ package src;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static java.lang.Character.isLowerCase;
+import static java.lang.Character.toUpperCase;
 
 public class Main {
     public class Akten {
@@ -13,6 +18,11 @@ public class Main {
         String diagnose;
         String datum;
         String krankenhaus;
+
+        @Override
+        public String toString() {
+            return name;
+        }
     }
 
     public List<Akten> readData(String filename) throws Exception {
@@ -72,7 +82,17 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Main main = new Main();
         List<Main.Akten> akten = main.readData("src/fallakten.json");
-        System.out.println(akten.size());
+
+        System.out.println("Enter a character: ");
+        Scanner scanner = new Scanner(System.in);
+        char input = scanner.nextLine().charAt(0);
+
+        if(isLowerCase(input))
+            input = toUpperCase(input);
+
+        char finalInput = input;
+        akten.stream().filter(a -> a.name.startsWith(String.valueOf(finalInput))).forEach(System.out::println);
+
     }
 
 }
