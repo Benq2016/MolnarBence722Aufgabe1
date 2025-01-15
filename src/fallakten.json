@@ -1,0 +1,242 @@
+[
+  {
+    "Id": 1,
+    "Patient": "John Doe",
+    "Symptom": "Fieber",
+    "Diagnose": "Lungenentzündung",
+    "Datum": "2023-11-05",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 2,
+    "Patient": "Jane Smith",
+    "Symptom": "Kopfschmerzen",
+    "Diagnose": "Migräne",
+    "Datum": "2023-10-20",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 3,
+    "Patient": "Emily Johnson",
+    "Symptom": "Hautausschlag",
+    "Diagnose": "Allergie",
+    "Datum": "2023-12-01",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 4,
+    "Patient": "Michael Brown",
+    "Symptom": "Husten",
+    "Diagnose": "Bronchitis",
+    "Datum": "2023-11-15",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 5,
+    "Patient": "Laura Davis",
+    "Symptom": "Müdigkeit",
+    "Diagnose": "Anämie",
+    "Datum": "2023-10-25",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 6,
+    "Patient": "Robert Wilson",
+    "Symptom": "Schwindel",
+    "Diagnose": "Hypotonie",
+    "Datum": "2023-12-10",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 7,
+    "Patient": "Sarah Miller",
+    "Symptom": "Bauchschmerzen",
+    "Diagnose": "Gastritis",
+    "Datum": "2023-11-18",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 8,
+    "Patient": "Thomas Moore",
+    "Symptom": "Gelenkschmerzen",
+    "Diagnose": "Arthritis",
+    "Datum": "2023-12-03",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 9,
+    "Patient": "Anna Garcia",
+    "Symptom": "Sehstörung",
+    "Diagnose": "Glaukom",
+    "Datum": "2023-10-30",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 10,
+    "Patient": "Mark Robinson",
+    "Symptom": "Fieber",
+    "Diagnose": "Virusinfektion",
+    "Datum": "2023-11-08",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 11,
+    "Patient": "Linda Perez",
+    "Symptom": "Schmerzen",
+    "Diagnose": "Lumbago",
+    "Datum": "2023-12-12",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 12,
+    "Patient": "David Thompson",
+    "Symptom": "Übelkeit",
+    "Diagnose": "Gastritis",
+    "Datum": "2023-11-22",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 13,
+    "Patient": "Emma White",
+    "Symptom": "Blutdruckschwankungen",
+    "Diagnose": "Bluthochdruck",
+    "Datum": "2023-12-15",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 14,
+    "Patient": "John Doe",
+    "Symptom": "Fieber",
+    "Diagnose": "Grippe",
+    "Datum": "2023-11-09",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 15,
+    "Patient": "Mary Anderson",
+    "Symptom": "Schwäche",
+    "Diagnose": "Diabetes",
+    "Datum": "2023-10-28",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 16,
+    "Patient": "William Thomas",
+    "Symptom": "Atemnot",
+    "Diagnose": "Herzinsuffizienz",
+    "Datum": "2023-12-05",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 17,
+    "Patient": "Patricia Martinez",
+    "Symptom": "Hautausschlag",
+    "Diagnose": "Dermatitis",
+    "Datum": "2023-11-13",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 18,
+    "Patient": "Christopher Martin",
+    "Symptom": "Schwindel",
+    "Diagnose": "Menière-Krankheit",
+    "Datum": "2023-12-08",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 19,
+    "Patient": "Barbara Clark",
+    "Symptom": "Sehstörung",
+    "Diagnose": "Makuladegeneration",
+    "Datum": "2023-11-01",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 20,
+    "Patient": "Matthew Rodriguez",
+    "Symptom": "Husten",
+    "Diagnose": "Lungenkrebs",
+    "Datum": "2023-12-20",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 21,
+    "Patient": "Jennifer Lewis",
+    "Symptom": "Kopfschmerzen",
+    "Diagnose": "Migräne",
+    "Datum": "2023-10-19",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 22,
+    "Patient": "Charles Harris",
+    "Symptom": "Schwäche",
+    "Diagnose": "Anämie",
+    "Datum": "2023-11-06",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 23,
+    "Patient": "Alice Walker",
+    "Symptom": "Übelkeit",
+    "Diagnose": "Reizmagen",
+    "Datum": "2023-10-27",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 24,
+    "Patient": "Margaret Young",
+    "Symptom": "Fieber",
+    "Diagnose": "Meningitis",
+    "Datum": "2023-11-10",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 25,
+    "Patient": "Joshua King",
+    "Symptom": "Atemnot",
+    "Diagnose": "Asthma",
+    "Datum": "2023-12-18",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 26,
+    "Patient": "Susan Wright",
+    "Symptom": "Bauchschmerzen",
+    "Diagnose": "Appendizitis",
+    "Datum": "2023-12-02",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 27,
+    "Patient": "Karen Scott",
+    "Symptom": "Blutdruckschwankungen",
+    "Diagnose": "Bluthochdruck",
+    "Datum": "2023-10-31",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  },
+  {
+    "Id": 28,
+    "Patient": "Thomas Adams",
+    "Symptom": "Husten",
+    "Diagnose": "COPD",
+    "Datum": "2023-11-25",
+    "Krankenhaus": "New York General Hospital"
+  },
+  {
+    "Id": 29,
+    "Patient": "Rebecca Hill",
+    "Symptom": "Schwindel",
+    "Diagnose": "Neuropathie",
+    "Datum": "2023-11-29",
+    "Krankenhaus": "Princeton-Plainsboro Teaching Hospital"
+  },
+  {
+    "Id": 30,
+    "Patient": "Daniel Allen",
+    "Symptom": "Hautausschlag",
+    "Diagnose": "Psoriasis",
+    "Datum": "2023-12-22",
+    "Krankenhaus": "St. Mary’s Medical Center"
+  }
+]
