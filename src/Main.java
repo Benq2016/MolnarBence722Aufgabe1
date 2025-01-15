@@ -93,6 +93,16 @@ public class Main {
         char finalInput = input;
         akten.stream().filter(a -> a.name.startsWith(String.valueOf(finalInput))).forEach(System.out::println);
 
+        akten.stream()
+                .filter(akt->akt.syptome.equals("Fieber"))
+                .sorted(Comparator.comparing(akt-> {
+                    try {
+                        return new SimpleDateFormat("yyyy-MM-dd").parse(akt.datum);
+                    } catch (ParseException e) {
+                        throw new RuntimeException(e);
+                    }
+                }))
+                .forEach(akt->System.out.printf("%s: %s - Diagnose: %s%n", akt.datum, akt.name, akt.diagnose));
     }
 
 }
